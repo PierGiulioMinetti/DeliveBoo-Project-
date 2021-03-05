@@ -1,0 +1,23 @@
+footer{
+    background: $footer;
+    
+    .wraper{
+        display: grid;
+        padding: 2rem 0;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin: 0  auto;
+
+        div{
+           /*  width: 250px;
+            height: 250px; */
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+
+            img{
+                padding: 10px 0;
+            }
+        }
+    }
+}

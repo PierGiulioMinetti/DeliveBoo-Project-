@@ -1,0 +1,159 @@
+.header-home{
+    height: 600px;
+    background-image: url('../image/top_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center;
+    
+    position: relative;
+}
+
+.header-restaurant{
+    background-image: url('../image/header.png');
+    // height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-size: ;
+}
+
+.hero-home{
+    padding: 50px;
+    position: relative;
+    h1{  
+        color: black;
+        font-size: 60px;
+        font-weight: 900;
+    }
+}
+
+.hero-text{
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    width: 40%;
+    h1,
+    h2{
+        margin: 10px 0;
+    }
+
+    // .inline{
+    //     display: inline-block;
+    // }
+}
+
+.navbar{
+    background: transparent;
+    .dropdown-toggle::after {
+        border-top: 0.3em transparent;
+    }
+
+
+    // .navbar-brand{
+      
+    //   .logo-deliveboo{
+    //       max-width: 200px;
+    //   }  
+    // }
+
+    span{
+        i{
+            color:#237177;
+        }
+    }
+    a{
+        color: white;
+        font-size: 20px;
+       
+    }
+
+
+    #black-color {
+
+        color: $footer;
+    } 
+}
+
+// MEDIAQUERY
+@media screen and (max-width: 1250px){
+    .hero-home{
+        h1{
+            font-size: 40px;
+        }
+    }
+    .hero-text{
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 40%;
+        h1,
+        h2{
+            margin: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .navbar{
+        a{
+            color: #237177;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .hero-home{
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size:20px;
+        }
+    }
+    .hero-text{
+        position: absolute;
+        right: 0;
+        top: 150%;
+        width: 35%;
+        h1,
+        h2{
+            margin: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 850px){
+    .header-home{
+    height: 500px;
+    background-image: url('../image/top_bg_mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .hero-home{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .hero-text{
+        position: absolute;
+        right: 40%;
+        top: 100%;
+        width: 50%;
+        left: 10%;
+        h1,
+        h2{
+            margin: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 450px){
+    .hero-home{
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 18px;
+        }
+    }
+}
